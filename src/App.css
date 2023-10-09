@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.grid{
+
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+}
+
+.card{
+  margin: 2em;
+  padding: 1px solid ;
+  color:black;
+}
+
+.cart{
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+.noOfItem{
+
+  border: 1px solid rgb(0,0,0);
+  padding: 5px;
+ 
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
